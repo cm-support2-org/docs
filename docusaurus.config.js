@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'cashmag-docs',
   tagline: 'Dinosaurs are cool',
-  url: 'https://cm-support2-org.github.io',
+  url: 'https://cm-support2-org.github.io/support2',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
