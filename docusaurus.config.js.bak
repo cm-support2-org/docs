@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'cashmag-docs',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://cm-support2-org.github.io/docs',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  // GitHub pages deployment config.
+  // GitHub pages deployment configs.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'cm-support2-org', // Usually your GitHub org/user name.
   projectName: 'support2', // Usually your repo name.
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'cashmag-docs',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
