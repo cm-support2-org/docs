@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'cashmag-docs',
   tagline: 'Dinosaurs are cool',
-  url: 'https://cm-support2-org.github.io/support2',
+  url: 'https://cm-support2-org.github.io',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment configs.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'cm-support2-org', // Usually your GitHub org/user name.
+  organizationName: 'cm-support2-org/cm-slu', // Usually your GitHub org/user name.
   projectName: 'support2', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
