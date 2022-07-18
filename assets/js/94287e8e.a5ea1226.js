@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcashmag_doc=self.webpackChunkcashmag_doc||[]).push([[386],{2631:o=>{o.exports=JSON.parse('{"title":"kiosk","slug":"/category/kiosk","permalink":"/docs/category/kiosk","navigation":{"previous":{"title":"Tutorial Intro","permalink":"/docs/intro"},"next":{"title":"Configuration","permalink":"/docs/kiosk/configuration"}}}')}}]);
