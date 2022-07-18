@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcashmag_doc=self.webpackChunkcashmag_doc||[]).push([[3213],{5890:a=>{a.exports=JSON.parse('{"label":"hello","permalink":"/docs/blog/tags/hello","allTagsPath":"/docs/blog/tags","count":2}')}}]);
