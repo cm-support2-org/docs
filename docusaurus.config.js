@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'cashmag-docs',
+  title: 'Cashmag-Docs',
   tagline: 'Dinosaurs are cool',
   url: 'https://cm-support2-org.github.io',
   baseUrl: '/docs/',
@@ -22,10 +22,10 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  //i18n: {
-  //  defaultLocale: 'en',
-  //  locales: ['en']
-  //},
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en']
+  },
 
   presets: [
     [
@@ -54,6 +54,15 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        language: "fr",
+      }
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -70,12 +79,12 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          //{to: '/blog', label: 'Blog', position: 'left'},
+          //{
+            //href: 'https://github.com/facebook/docusaurus',
+            //label: 'GitHub',
+            //position: 'right',
+          //},
         ],
       },
       footer: {
@@ -110,10 +119,10 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              //{
+              //  label: 'Blog',
+              //  to: '/blog',
+              //},
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
@@ -121,7 +130,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Cashmag. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
